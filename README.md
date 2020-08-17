@@ -1,14 +1,17 @@
 # Publisher
-Publisher And Service managment tools, is free software derived from the Free and Open source library called Signalgo.  
+Publisher and Service management tools, is free software derived from the Free and Open source library called Signalgo.  
 The main purpose of this line of thought is to make things easier. solve the problems of developers, project managers and help the free and open source software development community. So that everyone can use it any way they want.
+
+## The latest stable version is version 2. In the Publisher Branch.
+And the developing version is version 3. In the Publisher3 Branch.
 
 ## Some Features:
 
-1. Update you'r project's from source control like git. to get latest version/changes
+1. Update your projects from source control like git. to get latest version/changes
 2. Compile and get different release of projects.
 3. Run Unit Test's.
-4. Publish and get output's for any linux and windows platforms.
-5. Upload to any server that has a server manager or service manager (for linux and command-line operating systems)
+4. Publish and get outputs for any Linux and windows platforms.
+5. Upload to any server that has a server manager or service manager (for Linux and command-line operating systems)
 6. Manage services on servers through Publisher:
 
      6.1 Manage the execution of services
@@ -25,13 +28,13 @@ The main purpose of this line of thought is to make things easier. solve the pro
 
 ## With Security Measures:
      
-     In order to be able to communicate with server managers or publish projects on themو you must have the key to that project or service.
-
-## ScreenShots
+     In order to be able to communicate with server managers or publish projects on themو you must have the key to that project or service (Both must be the same).
+	
+## Screenshots
 *Define Projects and change settings like key, path, update ignore files ...
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/Publisher/AddProjectPageView_AndManagmentMenu.png)
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/Publisher/ProjectInfoView_ProjectSettingsTab.png)
-*Command Runner, Run Multiple Queued Commands and get realtime reports:
+*Command Runner, Run Multiple Queued Commands and get real-time reports:
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/Publisher/ProjectInfoView_PublishToProtectedServers.png)
 *Define and Manage remote servers info (server managers), protect an server with a password
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/Publisher/ServersManagmentPageView_EditServer.png)
@@ -39,36 +42,41 @@ The main purpose of this line of thought is to make things easier. solve the pro
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/Publisher/ServiceStatusCheckAndFileManagerView_GetRemotePhoto.png)
 *Control Services on servers
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/Publisher/ServerServiceManagmentView_StopAnService.png)
-*Publisher Settings And Commands Config
+*Publisher Settings and Commands Config
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/Publisher/PublisherSettingsPage_CommandsSetting.png)
 
 # Server/Service Manager
 
 Server Manager is a tool for managing services on the server side. Which can centrally monitor and manage services/programs and etc.
-This software prepares programs to host and work. Stay tuned to a specific port to receive commands or send report's. (With security measures)
+This software prepares programs to host and work. Stay tuned to a specific port to receive commands or send reports. (With security measures)
 It is still needed to publish and manage projects on servers through Publisher.
 
 ## Some Features:
 
 1. Add different services / applications
-2. Manage their execution status, Determine automatic or manual execution during startup (Auto Start)
+2. Manage their execution status, determine automatic or manual execution during startup (Auto Start)
 3. Manage their files (via file manager tab) or access to storage location
 4. Determine the time interval between running each service (Delay)
 5. Display the amount of memory consumed per each program/process
 6. Display the console and output of running programs in separate tabs on the program page itself
 7. Change Application Settings, Set specified endpoint address and port (for listening). (The default is on localhost and port 6464)
 
-## ScreenShots
+## Screenshots
 
-* Program/Service Info On Server Manager
+* Program/Service Info on Server Manager
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/ServerManager/ServerInfoPageView_Main.png)
 * Program Output and logs
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/ServerManager/ServerInfoPageView_ConsoleLogs.png)
-* Server Managment App Settings
+* Server Management App Settings
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/ServerManager/ServerManagerSettingsView.png)
 * Cross-Platform Command-Line Service Manager
 ![ScreenShot](https://github.com/saeedrezayi/SignalGo-Publisher/blob/Publisher3/Documents/Images/ConsoleServiceManager/ServiceManager_MainView.png)
-------
+
+# Signal Go
+
+SignalGo is a library for Cross-Platform developers that makes it incredibly simple and easy to add real-time web functionality to your applications. What is "real-time web" functionality? It's the ability to have your server-side code push content to the connected clients as it happens, in real-time. like WCF and SignalR but in a lot easier way and with far more embedded features!
+
+
 # Signal Go
 
 SignalGo is a library for Cross-Platform developers that makes it incredibly simple and easy to add real-time web functionality to your applications. What is "real-time web" functionality? It's the ability to have your server-side code push content to the connected clients as it happens, in real-time. like WCF and SignalR but in a lot easier way and with far more embedded features!
@@ -158,14 +166,16 @@ https://github.com/SignalGo/signalgo-samples/tree/master/CSharp%20Client%20Sampl
 [![NuGet](https://img.shields.io/badge/nuget-javascript%20v5+-blue.svg)](https://www.nuget.org/packages/SignalGo.JavaScript.Client/)
 
 # Wanna make Publisher and SignalGo better? or you wanna new features etc?
-Just create new issues, We will help you as much as we can.
+Just create new issues, we will help you as much as we can.
 
 In Telegram:
 @mrgrayhat
+
 @Ali_Visual_Studio
 
 Via Email:
 mr.grayhatt@gmail.com
+
 ali.visual.studio[AT]gmail.com
 
 ## Other source on github
