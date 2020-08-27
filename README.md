@@ -4,7 +4,8 @@ The main purpose of this line of thought is to make things easier. solve the pro
 
 ## The latest stable version is version 2. In the Publisher Branch.
 And the developing version is version 3. In the Publisher3 Branch.
-## All released versions and change logs are available here: https://t.me/PublisherGo
+## All released versions and change logs are available here:
+https://t.me/PublisherGo
 
 ## Some Features:
 
